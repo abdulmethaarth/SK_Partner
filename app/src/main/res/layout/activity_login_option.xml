@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.affinity.sk_partner.activity.LoginOptionActivity">
+
+    <!--<ImageView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/splash_screen_logo"
+        android:layout_centerInParent="true"/>-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/font_20"
+        android:layout_above="@+id/option_layout_signup">
+
+        <ImageView
+            android:layout_width="@dimen/height_175"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/height_50"
+            android:adjustViewBounds="true"
+            android:src="@drawable/logo" />
+
+       <!-- <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/yellow"
+            android:text="Private Car Driver"/>
+-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/yellow"
+            android:textStyle="bold"
+            android:textSize="@dimen/height_25"
+            android:layout_marginTop="@dimen/font_10"
+            android:text="Welcome to"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="@dimen/height_25"
+            android:text="SK Driver"/>
+        <!--<AdapterViewFlipper
+            android:id="@+id/adapterViewFlipper"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></AdapterViewFlipper>-->
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_margin="@dimen/font_20"
+        android:id="@+id/option_layout_signup"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/yellow"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp">
+
+        <TextView
+            android:id="@+id/txt_signup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="JOIN AS A DRIVER"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="14dp" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

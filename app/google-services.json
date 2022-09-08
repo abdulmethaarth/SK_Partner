@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "849748967365",
+    "firebase_url": "https://sk-partner.firebaseio.com",
+    "project_id": "sk-partner",
+    "storage_bucket": "sk-partner.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:849748967365:android:9b3677d9f2483c972395ac",
+        "android_client_info": {
+          "package_name": "com.affinity.sk_partner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "849748967365-5ii7gcf0vgc82scpu81fqfre4b7u59jj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbrnOzaT08ds1Ru9pJ0oW5OQHe5-zyGio"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "849748967365-5ii7gcf0vgc82scpu81fqfre4b7u59jj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
